@@ -1,0 +1,24 @@
+# Dependencies (rebuilt with `npm install` on each machine)
+node_modules/
+**/node_modules/
+
+# Environment files — NEVER commit these (they hold secrets)
+.env
+.env.local
+**/.env
+**/.env.local
+
+# Build output
+dist/
+**/dist/
+build/
+
+# Logs & OS junk
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/

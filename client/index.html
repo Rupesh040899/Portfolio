@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta
+      name="description"
+      content="Rupesh Mali — full-stack developer (MERN). Portfolio of projects, skills and experience."
+    />
+    <meta name="theme-color" content="#0c0d10" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Rupesh Mali — Full-Stack Developer" />
+    <meta property="og:description" content="Full-stack developer working with the MERN stack. Projects, skills and experience." />
+    <meta property="og:type" content="website" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Rupesh Mali — Full-Stack Developer</title>
+
+    <!-- Apply saved theme before paint to avoid a flash of the wrong theme -->
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('theme');
+          var light = saved
+            ? saved === 'light'
+            : window.matchMedia('(prefers-color-scheme: light)').matches;
+          if (light) document.documentElement.classList.add('light');
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

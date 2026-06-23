@@ -1,0 +1,10 @@
+export { default as Admin } from './Admin.js';
+export { default as Hero } from './Hero.js';
+export { default as About } from './About.js';
+export { default as Skill } from './Skill.js';
+export { default as Project } from './Project.js';
+export { default as Experience } from './Experience.js';
+export { default as Education } from './Education.js';
+export { default as Certification } from './Certification.js';
+export { default as Testimonial } from './Testimonial.js';
+export { default as ContactMessage } from './ContactMessage.js';
